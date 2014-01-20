@@ -12,9 +12,6 @@ body {
     max-width: 45rem;
 }
 
-blockquote {
-	
-	
 ::selection {
 	background-color: #C69;
 	color: #fff;
@@ -115,4 +112,16 @@ ol li:before {
 	color: #ccc;
 	position: absolute;
 	left: -1em;
+}
+
+dt {
+	margin: 1.5em 0 .75em;
+}
+
+blockquote p {
+	margin: 0 3em 1.5em;
+}
+
+cite {
+	margin-top: 2em
 }
