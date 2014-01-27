@@ -1,3 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.small {
+	background-color: #997788;
+	background-image: linear-gradient(to top, #997788, #B299A5);
+	border-radius: 15px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	padding: 15px;
+	max-width: 300px;
+}
+
+.small h2 {
+	margin-top: -.7rem;
+}
+
+img {
+	margin: 15px 0 15px 15px;
+}
+
+.small p {
+	margin-top: -1rem;
+}
