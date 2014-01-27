@@ -5,9 +5,15 @@
 	margin-top: -1rem;
 }
 
+.product {
+	background-color: #e1dddd; 
+	padding: 15px;
+	max-width: 267px;
+}
+
 .title {
 	text-align: center;
-	max-width: 250px;
+	max-width: 270px;
 }
 
 .center {
