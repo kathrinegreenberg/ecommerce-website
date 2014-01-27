@@ -1,3 +1,38 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#tfnewsearch{
+	float:right;
+	padding:20px;
+}
+.tftextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	border:1px solid #0076a3; 
+	border-right: 0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.search-button {
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #660066; 
+	border-right:0px;
+	background: #660066;
+	background: linear-gradient(to bottom, #997788, #775566);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
