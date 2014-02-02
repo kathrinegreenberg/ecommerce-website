@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.grid {
+	border: 1px solid pink;
+	overflow: hidden; 
+}
+
+.gutter {
+	margin: 10px;
+}
+
+.unit {
+	background-color: #fff;
+	float: left;
+}
+
+.unit-s-1 {
+	width: 100%;	
+}
+
+.unit-s-1-2 {
+	width: 50%;
+}
+
