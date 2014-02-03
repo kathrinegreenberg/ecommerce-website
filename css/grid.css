@@ -6,11 +6,10 @@
 }
 
 .gutter {
-	padding: 10px;
+	padding: .75rem;
 }
 
 .unit {
-	background-color: #fff;
 	float: left;
 }
 
