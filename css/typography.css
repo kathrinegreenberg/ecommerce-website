@@ -123,5 +123,9 @@ blockquote p {
 }
 
 cite {
-	margin-top: 2em
+	margin-top: 2em;
+}
+
+mark {
+	background-color: #997788;
 }
