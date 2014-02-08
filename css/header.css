@@ -1,2 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
+
+@media only screen and (max-width: 61em) {
+	h1 {
+	display: none;
+	}
+}
+
+.head {
+	background-color: #e1dddd;
+	margin: 0;
+}
