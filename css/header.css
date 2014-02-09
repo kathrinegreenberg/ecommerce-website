@@ -1,13 +1,65 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.head {
+	background-color: #e1dddd;
+	margin-left: -2em;
+	margin-right: -2em;
+}
+
+h1 {
+	padding-top: .25em;
+}
+
+nav ul {
+	position: absolute;
+	width: 100%;
+	top: 8rem;     
+	height: 3rem;
+	list-style-type: none;
+	background-color: #F00;
+	text-align: center;
+	font-size: 1rem;
+}
+
+nav a,   
+nav a:link,
+nav a:visited {    
+	display: inline-block;  
+	height: 3rem;
+	margin: 0 4%;
+	padding: .8rem 3%;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none; 
+}
+
+nav a:hover,    
+nav a:focus, 
+nav a:active {
+	background-color: #039;
+}
+
+nav .selected {
+	background-color: #039;    
+}
+
+
 @media only screen and (max-width: 61em) {
 	h1 {
-	display: none;
+		display: none;
+	}
+	.search {
+		padding-top: 2em;
 	}
 }
 
-.head {
-	background-color: #e1dddd;
-	margin: 0;
+@media only screen and (min-width: 61em) {
+	.search {
+		padding-top: 3em;
+	}
+}
+
+@media only screen and (max-width: 48em) {
+	
 }
