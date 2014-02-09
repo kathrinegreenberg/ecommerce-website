@@ -4,9 +4,11 @@
 footer { 
 	height: 5rem;
 	background-color: #978c8a;
-	bottom: 0px;
+	position: absolute;
+	bottom: 0;
 	margin-left: -2rem;
 	margin-right: -2rem;
+	width: 100%;
 }
 
 li {
