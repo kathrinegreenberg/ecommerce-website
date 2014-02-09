@@ -70,6 +70,13 @@ nav .selected {
 		padding: .75rem;
 		border-top: 2px solid #fff;
 	}
+	
+	.nav a:hover,    
+	.nav a:focus, 
+	.nav a:active {
+		background-color: #660066;
+		border-bottom: none;
+	}
 }
 
 @media only screen and (max-width:30em) {

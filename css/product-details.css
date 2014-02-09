@@ -38,3 +38,37 @@ h1 {
 p {
 	margin-bottom: 2.5rem;
 }
+
+@media only screen and (max-width:50em) {
+	.hidden {
+		display: none;
+	}
+	
+	ul {
+		padding: 5px;
+	}
+}
+
+@media only screen and (min-width:50em) {
+	.shown {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:40em) {
+	.hidden2 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:40em) {
+	.shown2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:38em) {
+	.unit-s-1 {
+		width: 100%;
+	}
+}	
