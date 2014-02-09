@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer { 
+	height: 5rem;
+	background-color: #978c8a;
+	bottom: 0px;
+	margin-left: -2rem;
+	margin-right: -2rem;
+}
+
+li {
+	margin: 10px;
+}
