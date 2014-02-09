@@ -21,7 +21,6 @@ a,
 a:link {
 	color: #978c8a;
 	text-decoration: none; 
-	border-bottom: 0.1em solid rgba(50,50,50,0.5);
 	transition: all 200ms linear;	
 }
 
@@ -35,6 +34,7 @@ a:focus,
 a:active {
 	color: #997788;
 	border-bottom-color: #997788;
+	border-bottom: 0.1em solid;
 }
 
 h1, h2, h3, h4, h5, h6,
