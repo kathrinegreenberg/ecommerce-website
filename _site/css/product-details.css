@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.img-pad {
+	padding-right: 50px;
+}
+
+.pg-pad {
+	padding: 2rem 2rem 0 2rem;
+	background-color: #e1dddd;
+}
+
+h1 {
+	text-align: center;
+}
+
+.left {
+	float: left;
+	width: 50%;
+	margin-bottom: 0;
+}
+
+.right {
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+.wrapper {
+	overflow: hidden;
+	padding: 1rem;
+	text-align: center;
+}
+
+.grey {
+	background-color: #978c8a;
+}
+
+p {
+	margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width:50em) {
+	.hidden {
+		display: none;
+	}
+	
+	ul {
+		padding: 5px;
+	}
+}
+
+@media only screen and (min-width:50em) {
+	.shown {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:40em) {
+	.hidden2 {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:40em) {
+	.shown2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:38em) {
+	.unit-s-1 {
+		width: 100%;
+	}
+}	

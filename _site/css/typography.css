@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+font-family: 'Josefin Sans', sans-serif;
+	font: normal 100%/1.5;
+}
+
+body {
+	margin: 0 2em;
+    padding: 0;
+	/*max-width: 45em*/ 
+}
+
+::selection {
+	background-color: #C69;
+	color: #fff;
+}
+
+a,
+a:link {
+	color: #978c8a;
+	text-decoration: none; 
+	transition: all 200ms linear;	
+}
+
+a:visited {
+	color: #997788;
+	border-bottom-color: #997788;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #997788;
+	border-bottom-color: #997788;
+	border-bottom: 0.1em solid;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dawning of a New Day', cursive;
+	color:#660066 ;
+}
+
+.yotta {
+  font-size: 4.7684rem;
+  line-height: 1.2583;
+}
+
+.zetta {
+  font-size: 3.8147rem;
+  line-height: 1.1796;
+}
+
+h1, .exa {
+  font-size: 3.0518rem;
+  line-height: 1.4746;
+}
+
+h2, .peta {
+  font-size: 2.4414rem;
+  line-height: 1.2288;
+}
+
+h3, .tera {
+  font-size: 1.9531rem;
+  line-height: 1.5360;
+}
+
+h4, .giga {
+  font-size: 1.5625rem;
+  line-height: 1.9200;
+}
+
+h5, .mega {
+  font-size: 1.2500rem;
+  line-height: 1.2000;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.8000rem;
+  line-height: 1.8750;
+}
+
+.micro {
+  font-size: 0.6400rem;
+  line-height: 2.3438;
+}
+
+ul, ol {
+	list-style-type: none;
+} 
+
+ul li, ol li {
+	position: relative;
+}
+
+ul li:before,
+ol li:before {
+	content: "•"; 
+	color: #CCC;
+	position: absolute;
+	left: -1em;
+}
+
+dt {
+	margin: 1.5em 0 .75em;
+}
+
+blockquote p {
+	margin: 0 3em 1.5em;
+}
+
+cite {
+	margin-top: 2em;
+}
+
+mark {
+	background-color: #997788;
+}
