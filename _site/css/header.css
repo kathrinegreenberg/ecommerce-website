@@ -42,6 +42,10 @@ nav .selected {
 	padding: 1rem;   
 }
 
+.current {
+	background-color: #660066;
+}
+
 
 @media only screen and (max-width: 61em) {
 	h1 {
