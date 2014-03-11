@@ -4,7 +4,7 @@
 footer { 
 	height: 5rem;
 	background-color: #978c8a;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	margin-left: -2rem;
 	margin-right: -2rem;
