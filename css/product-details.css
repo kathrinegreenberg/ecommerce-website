@@ -65,10 +65,4 @@ p {
 	.shown2 {
 		display: none;
 	}
-}
-
-@media only screen and (max-width:38em) {
-	.unit-s-1 {
-		width: 100%;
-	}
 }	

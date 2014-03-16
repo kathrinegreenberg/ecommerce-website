@@ -47,7 +47,7 @@ nav .selected {
 
 
 @media only screen and (max-width: 61em) {
-	h1 {
+	.hide2 {
 		display: none;
 	}
 	.search {
@@ -108,7 +108,7 @@ nav .selected {
 .banner {
 	background: url("../images/banner.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 5rem 1rem 1rem;
+	padding: 1.5rem 1rem 1rem;
 	margin-bottom: 1rem;
 	text-align: center;
 	color: #fff;
