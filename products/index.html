@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Rings</h1>
+
+<ul>
+{% for product in site.pages %}
+	{% if product.type == 'ring' %}
+	<li>
+		{{product.title}}
+	</li>
+	{% endif %}
+{% endfor %}
+</ul>
