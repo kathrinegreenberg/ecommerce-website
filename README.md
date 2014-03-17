@@ -9,4 +9,5 @@ Kathrine's Ecommerce Website
 
 © 2014 Kathrine Greenberg 
 
-Licensed under the [MIT License] (LICENSE). 
+Code licensed under the [MIT License] (LICENSE). 
+Design and imagery licensed under [Creative Commons Attribution 4.0 International License] (http://creativecommons.org/licenses/by/4.0/).

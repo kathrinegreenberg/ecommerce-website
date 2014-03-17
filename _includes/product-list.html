@@ -1,6 +1,6 @@
 <ul>
 	{% for product in site.pages %}
-		{% if product.type == 'ring' %}
+		{% if product.type == include.type %}
 			<li>
 				<img src="{{site.baseurl}}/img/products/{{product.image}}" alt="Photo of {{product.title}}">
 				{{product.title}}
@@ -9,4 +9,3 @@
 		{% endif %}
 	{% endfor %}
 </ul>
-
