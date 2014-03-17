@@ -2,14 +2,11 @@
 layout: default
 ---
 
-<h1>Rings</h1>
+<h3>Rings</h3>
+{% include product-list.html type='rings' %}
 
-<ul>
-{% for product in site.pages %}
-	{% if product.type == 'ring' %}
-	<li>
-		{{product.title}}
-	</li>
-	{% endif %}
-{% endfor %}
-</ul>
+<h3>Necklaces</h3>
+{% include product-list.html type='necklaces' %}
+
+<h3>Earrings</h3>
+{% include product-list.html type='earrings' %}
