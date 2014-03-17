@@ -1,9 +1,12 @@
 <ul>
-{% for product in site.pages %}
-	{% if product.type == 'ring' %}
-	<li>
-		{{product.title}}
-	</li>
-	{% endif %}
-{% endfor %}
+	{% for product in site.pages %}
+		{% if product.type == 'ring' %}
+			<li>
+				<img src="{{site.baseurl}}/img/products/{{product.image}}" alt="Photo of {{product.title}}">
+				{{product.title}}
+				<p>{{product.meta}}</p>
+			</li>
+		{% endif %}
+	{% endfor %}
 </ul>
+
