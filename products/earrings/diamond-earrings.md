@@ -4,6 +4,7 @@ title: Diamond Earrings
 meta: These are diamond earrings. 
 type: earring
 image:
+color: Pink
 ---
 
 aeljteorijg
