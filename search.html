@@ -2,3 +2,39 @@
 layout: default
 title: Search
 ---
+
+<ul>
+	{% for earring in site.pages %}
+		{% if earring.type == 'earring' %}
+			<li>
+				<a href="{{earring.url}}">
+				<img src="{{site.baseurl}}/images/{{earring.image}}" alt="">
+				{{earring.title}}
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for necklace in site.pages %}
+		{% if necklace.type == 'necklace' %}
+			<li>
+				<a href="{{necklace.url}}">
+				<img src="{{site.baseurl}}/images/{{necklace.image}}" alt="">
+				{{necklace.title}}
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>
+
+<ul>
+	{% for ring in site.pages %}
+		{% if ring.type == 'ring' %}
+			<li>
+				<a href="{{ring.url}}">
+				<img src="{{site.baseurl}}/images/{{ring.image}}" alt="">
+				{{ring.title}}
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>
