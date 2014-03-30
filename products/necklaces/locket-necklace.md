@@ -4,5 +4,7 @@ title: Locket Necklace
 meta: This is a locket. 
 type: necklace
 image:
+quantity: 5
+stock: IN STOCK
 ---
 

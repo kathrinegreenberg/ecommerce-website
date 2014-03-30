@@ -4,4 +4,6 @@ title: Diamond Ring
 meta: This is a diamond ring. 
 type: ring
 image: rings/diamondring.jpg
+quantity: 0
+stock: OUT OF STOCK
 ---
