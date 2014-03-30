@@ -1,44 +1,38 @@
 # User Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by Kathrine Greenberg on March 24, 2014 between the times of 8:00 AM and 11:00 AM with the following participants:
 
-- {Jane Doe}
-- {John Doe}
-- {Jordan Doe}
+- Jenna Mclean
+- Adriana Granieri
+- Sonal Sharma
 
 ## Tasks
 
-1. {First task description here}
-2. {Second task description here}
-3. {Third task description here}
+1. Find the pearl rings. 
+2. Buy the wheel earrings. 
+3. Find out how much the flower necklace is on sale for. 
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### Jenna Mclean
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- she clicked through the links as expected for the first two tasks
+- for the third task there needs to be more information in the promo on the sale 
+- there needs to be a link from the promo to the product description page
 
-### {John Doe}
+### Adriana Granieri
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- she clicked through the links as expected for the first two tasks
+- for the third task there needs to be more information in the promo on the sale 
+- there needs to be a link from the promo to the product description page
+- there needs to be more specific content in the site
 
-### {Jordan Doe}
+### Sonal Sharma 
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- she clicked through the links as expected for the first two tasks
+- the third task there needs to be a link from the promo to the product description page
 
 ---
 
@@ -46,15 +40,12 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+-there needs to be a link from the promo to the description page
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- there needs to be more specific content in the site 
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- there needs to be more information in the promos 
