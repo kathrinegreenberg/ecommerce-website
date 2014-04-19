@@ -114,12 +114,13 @@ nav .selected {
 .banner {
 	background: url("../images/banner.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 1.5rem 1rem 1rem;
+	padding: 2rem 1rem;
 	margin: -1.5rem -2rem 1rem;
 	text-align: center;
 	color: #fff;
 }
 
-.banner h1 {
-	color: #fff;
+.banner p {
+	color: #997788;
+	font-size: 4rem;
 }
