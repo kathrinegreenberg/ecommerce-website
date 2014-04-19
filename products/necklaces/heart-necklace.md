@@ -6,4 +6,5 @@ type: necklace
 image:
 quantity: 0
 stock: OUT OF STOCK
+price: $19.75
 ---

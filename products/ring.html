@@ -8,11 +8,13 @@ title: Rings
 <ul class="product bottom grid media pad">
 	{% for ring in site.pages %}
 		{% if ring.type == 'ring' %}
+		<div class="display">
 			<li>
 				<a href="{{ring.url}}">
 				<div class="media-img media-img-stacked unit unit-s-1">
 					<img src="{{site.baseurl}}/images/{{ring.image}}" class="border" alt="">
 				</div>
+				</a>
 			</li>
 			<div class="media-body-stacked">
 				<li>
@@ -26,6 +28,7 @@ title: Rings
 					</div>
 				</li>
 			</div>
+		</div>
 		{% endif %}
 	{% endfor %}	
 </ul>

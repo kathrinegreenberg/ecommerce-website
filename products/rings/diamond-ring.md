@@ -6,4 +6,5 @@ type: ring
 image: rings/diamondring.jpg
 quantity: 0
 stock: OUT OF STOCK
+price: $18.00
 ---

@@ -1,11 +1,27 @@
-<ul>
+<ul class="product grid media pad">
 	{% for items in site.pages %}
 		{% if items.color == 'Pink' %}
+		<div class="display">
 			<li>
-				<img src="{{site.baseurl}}/images/{{items.image}}" alt="">
-				{{content}}
-				<h3>{{items.title}}</h3>
+				<a href="{{items.url}}">
+				<div class="media-img media-img-stacked unit unit-s-1">
+					<img src="{{site.baseurl}}/images/{{items.image}}" class="border" alt="">
+				</div>
+				</a>
 			</li>
+			<div class="media-body-stacked">
+				<li>
+					<div class="unit unit-s-1">
+						<h3 class="giga center">{{items.title}}</h3>
+					</div>
+				</li>
+				<li>
+					<div class="unit unit-s-1">
+						<p>{{items.meta}}</p>
+					</div>
+				</li>
+			</div>
+		</div>
 		{% endif %}
-	{% endfor %}
+	{% endfor %}	
 </ul>

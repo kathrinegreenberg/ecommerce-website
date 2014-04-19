@@ -6,5 +6,6 @@ type: necklace
 image:
 quantity: 5
 stock: IN STOCK
+price: $17.75
 ---
 

@@ -3,38 +3,80 @@ layout: default
 title: Search
 ---
 
-<ul>
-	{% for earring in site.pages %}
-		{% if earring.type == 'earring' %}
+<ul class="product grid media pad">
+	{% for ring in site.pages %}
+		{% if ring.type == 'ring' %}
+		<div class="display">
 			<li>
-				<a href="{{earring.url}}">
-				<img src="{{site.baseurl}}/images/{{earring.image}}" alt="">
-				{{earring.title}}
+				<a href="{{ring.url}}">
+				<div class="media-img media-img-stacked unit unit-s-1">
+					<img src="{{site.baseurl}}/images/{{ring.image}}" class="border" alt="">
+				</div>
+				</a>
 			</li>
-		{% endif %}	
-	{% endfor %}
+			<div class="media-body-stacked">
+				<li>
+					<div class="unit unit-s-1">
+						<h3 class="giga center">{{ring.title}}</h3>
+					</div>
+				</li>
+				<li>
+					<div class="unit unit-s-1">
+						<p>{{ring.meta}}</p>
+					</div>
+				</li>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}	
 </ul>
 
-<ul>
+<ul class="product grid media pad">
 	{% for necklace in site.pages %}
 		{% if necklace.type == 'necklace' %}
 			<li>
 				<a href="{{necklace.url}}">
-				<img src="{{site.baseurl}}/images/{{necklace.image}}" alt="">
-				{{necklace.title}}
+				<div class="media-img media-img-stacked unit unit-s-1">
+					<img src="{{site.baseurl}}/images/{{necklace.image}}" class="border" alt="">
+				</div>
 			</li>
-		{% endif %}	
-	{% endfor %}
+		<div class="media-body-stacked">
+			<li>
+				<div class="unit unit-s-1">
+					<h3 class="giga center">{{necklace.title}}</h3>
+				</div>
+			</li>
+			<li>
+				<div class="unit unit-s-1">
+					<p>{{necklace.meta}}</p>
+				</div>
+			</li>
+		</div>
+		{% endif %}
+	{% endfor %}	
 </ul>
 
-<ul class="bottom">
-	{% for ring in site.pages %}
-		{% if ring.type == 'ring' %}
+<ul class="product bottom grid media pad">
+	{% for earring in site.pages %}
+		{% if earring.type == 'earring' %}
 			<li>
-				<a href="{{ring.url}}">
-				<img src="{{site.baseurl}}/images/{{ring.image}}" alt="">
-				{{ring.title}}
+				<a href="{{earring.url}}">
+				<div class="media-img media-img-stacked unit unit-s-1">
+					<img src="{{site.baseurl}}/images/{{earring.image}}" class="border" alt="">
+				</div>
 			</li>
-		{% endif %}	
-	{% endfor %}
+		<div class="media-body-stacked">
+			<li>
+				<div class="unit unit-s-1">
+					<h3 class="giga center">{{earring.title}}</h3>
+				</div>
+			</li>
+			<li>
+				<div class="unit unit-s-1">
+					<p>{{earring.meta}}</p>
+				</div>
+			</li>
+		</div>
+		{% endif %}
+	{% endfor %}	
 </ul>

@@ -7,6 +7,7 @@ image:
 color: Pink
 quantity: 4
 stock: IN STOCK
+price: $12.99
 ---
 
 aeljteorijg

@@ -562,6 +562,7 @@ h1 {
 	float: left;
 	width: 50%;
 	margin-bottom: 0;
+	margin-left: -3rem;
 }
 
 .right {
@@ -581,6 +582,14 @@ h1 {
 
 p {
 	margin-bottom: 2.5rem;
+}
+
+.price {
+	text-align: left;
+	position: absolute;
+	margin-left: 6rem;
+	margin-top: 1rem;
+	font-size: 20px;
 }
 
 @media only screen and (max-width:47em) {
@@ -608,6 +617,7 @@ p {
 .product {
 	background-color: #e1dddd; 
 	max-width: 290px;
+	margin-right: 0px;
 }
 
 .product h3 {
@@ -628,6 +638,9 @@ p {
 
 .pad {
 	padding-left: .2rem;
+}
+
+.display {
 }
 @charset "UTF-8";
 /* CSS Document */
@@ -868,7 +881,7 @@ p {
 	
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 49em) {
 	.list li {
 		margin: 0 1.5rem 1rem;
 		padding: 5rem;

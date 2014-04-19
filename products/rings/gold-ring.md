@@ -6,4 +6,5 @@ type: ring
 image:
 quantity: 0
 stock: OUT OF STOCK
+price: $14.50
 ---
