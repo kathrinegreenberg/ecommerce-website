@@ -792,6 +792,10 @@ p {
 .margin-bottom {
 	margin-bottom: 1rem;
 }
+
+.h2hide h2 {
+	display: none;
+}
 .space {
 	margin-bottom: 5rem;
 }
