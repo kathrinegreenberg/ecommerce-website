@@ -1,9 +1,9 @@
 ---
 layout: product
-title: Anchor Earrings
-meta: These are anchor earrings. 
+title: Blue Earrings
+meta: These are blue earrings. 
 type: earring
-image:
+image: earrings/blueearrings.jpg
 color: Pink
 quantity: 0
 stock: OUT OF STOCK
