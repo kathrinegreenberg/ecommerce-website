@@ -5,8 +5,8 @@ meta: These are blue earrings.
 type: earring
 image: earrings/blueearrings.jpg
 color: Pink
-quantity: 0
-stock: OUT OF STOCK
-price: $11.50
+quantity: 1
+stock: IN STOCK
+price: $5.50
 ---
 

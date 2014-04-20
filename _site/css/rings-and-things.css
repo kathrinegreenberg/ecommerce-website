@@ -781,6 +781,7 @@ mark {
 .promo-large {
 	background-color: #997788;
 	border-radius: 10px;
+	width: 50%;
 } 
  
 p {
