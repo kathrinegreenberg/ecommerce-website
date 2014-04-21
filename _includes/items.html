@@ -1,7 +1,33 @@
+<ul class="product bottom grid media">
+	{% for items in site.pages %}
+		{% if items.color == 'Pink' %}
+			<li class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-4 background">
+				<a href="{{site.baseurl}}{{items.url}}">
+				<img class="img-flex border smaller" src="{{site.baseurl}}/images/{{items.image}}" alt="">
+				<a href="{{site.baseurl}}{{items.url}}">
+				<div class="gutter mega centertext">{{items.title}}</div>
+			</li>
+		{% endif %}
+	{% endfor %}	
+</ul>
+
+<!--<ul class="product bottom grid media">
+	{% for items in site.pages %}
+		{% if items.color == 'Pink' %}
+			<li class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-4 background">
+				<a href="{{site.baseurl}}{{items.url}}">
+				<img class="img-flex border smaller" src="{{site.baseurl}}/images/{{items.image}}" alt="">
+				<a href="{{site.baseurl}}{{items.url}}">
+				<div class="gutter mega centertext">{{items.title}}</div>
+			</li>
+		{% endif %}
+	{% endfor %}	
+</ul>
+
 <ul class="product grid media pad">
 	{% for items in site.pages %}
 		{% if items.color == 'Pink' %}
-		<div class="display">
+		<div>
 			<li>
 				<a href="{{items.url}}">
 				<div class="media-img media-img-stacked unit unit-s-1">
@@ -24,4 +50,4 @@
 		</div>
 		{% endif %}
 	{% endfor %}	
-</ul>
+</ul>-->

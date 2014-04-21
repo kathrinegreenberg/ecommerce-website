@@ -7,5 +7,6 @@ image: necklaces/chainnecklace.jpg
 quantity: 2
 stock: IN STOCK
 price: $12.99
+color: Pink
 ---
 
