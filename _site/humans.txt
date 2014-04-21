@@ -2,16 +2,21 @@
 
 # TEAM
 
-
+Kathrine Greenberg - Designer
+gree0385@algonquinlive.com
+Ottawa, Ontario
 
 ---
 
 # THANKS
 
-Public domain images from copyrightexpired.com
+Rings & Things
 
 ---
 
-# TECHNOLOGY
+# SITE
 
-
+Last update: 2014/04/21
+Standards: HTML5, CSS3
+Components: jQuery, jekyll
+Software: Dreamweaver
