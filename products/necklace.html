@@ -3,29 +3,17 @@ layout: default
 title: Necklaces
 ---
 
-<h3>Necklaces</h3>
+<h3 class="centertext">Necklaces</h3>
 
-<ul class="product bottom grid media pad">
+<ul class="product bottom grid media">
 	{% for necklace in site.pages %}
-		{% if necklace.type == 'necklace' %}
-			<li>
-				<a href="{{necklace.url}}">
-				<div class="media-img media-img-stacked unit unit-s-1">
-					<img src="{{site.baseurl}}/images/{{necklace.image}}" class="border" alt="">
-				</div>
+		{% if earring.type == 'necklace' %}
+			<li class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-4 background">
+				<a href="{{site.baseurl}}{{necklace.url}}">
+				<img class="img-flex border smaller" src="{{site.baseurl}}/images/{{necklace.image}}" alt="">
+				<a href="{{site.baseurl}}{{necklace.url}}">
+				<div class="gutter mega centertext">{{necklace.title}}</div>
 			</li>
-		<div class="media-body-stacked">
-			<li>
-				<div class="unit unit-s-1">
-					<h3 class="giga center">{{necklace.title}}</h3>
-				</div>
-			</li>
-			<li>
-				<div class="unit unit-s-1">
-					<p>{{necklace.meta}}</p>
-				</div>
-			</li>
-		</div>
 		{% endif %}
 	{% endfor %}	
 </ul>
