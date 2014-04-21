@@ -616,8 +616,11 @@ p {
 
 .product {
 	background-color: #e1dddd; 
-	max-width: 290px;
 	margin-right: 0px;
+}
+
+.centertext {
+	text-align: center;
 }
 
 .product h3 {
