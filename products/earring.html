@@ -3,14 +3,14 @@ layout: default
 title: Earrings
 ---
 
-<h3>Earrings</h3>
+<h3 class="centertext">Earrings</h3>
 
-<ul class="product bottom grid media pad">
+<ul class="product bottom grid media">
 	{% for earring in site.pages %}
 		{% if earring.type == 'earring' %}
-			<li class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
+			<li class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-4 background">
 				<a class="" href="{{site.baseurl}}{{earring.url}}">
-				<img class="img-flex border" src="{{site.baseurl}}/images/{{earring.image}}" alt="">
+				<img class="img-flex border smaller" src="{{site.baseurl}}/images/{{earring.image}}" alt="">
 				<a class="" href="{{site.baseurl}}{{earring.url}}">
 				<div class="gutter mega centertext">{{earring.title}}</div>
 			</li>

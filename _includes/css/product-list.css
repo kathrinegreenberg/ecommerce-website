@@ -8,8 +8,8 @@
 }
 
 .product {
-	background-color: #e1dddd; 
 	margin-right: 0px;
+	padding-left: 0rem;
 }
 
 .centertext {
@@ -24,17 +24,38 @@
 	border: 2.5px solid;
 	border-color: #997788;
 	padding: 6px;
-	background-color: #e1dddd;
-	margin: 10px;
 }
 
 .bottom {
 	margin-bottom: 10rem;
 }
 
-.pad {
-	padding-left: .2rem;
+.background {
+	background-color: #e1dddd;
+	padding-bottom: -.25rem;
+	margin: 2.25rem;
+	padding-right: -3rem;
+	border-radius: 5px;
 }
 
-.display {
+@media only screen and (max-width: 58em) {	
+	.background {
+		margin: 2rem;
+	}
+}
+
+@media only screen and (max-width: 52em) {	
+	.background {
+		margin: 1.75rem;
+	}
+}
+
+@media only screen and (max-width: 30em) {	
+	.product {
+		width: 95%;
+	}
+	
+	.smaller {
+		width: 93%;
+	}
 }
