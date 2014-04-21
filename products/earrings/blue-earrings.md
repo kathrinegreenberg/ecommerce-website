@@ -10,3 +10,6 @@ stock: IN STOCK
 price: $5.50
 ---
 
+Get the last one while it's still here!
+
+.
