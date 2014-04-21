@@ -7,5 +7,6 @@ image: earrings/spikeearrings.jpg
 quantity: 7
 stock: IN STOCK
 price: $16.50
+color: Pink
 ---
 

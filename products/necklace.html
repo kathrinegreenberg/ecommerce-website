@@ -10,9 +10,9 @@ title: Necklaces
 		{% if necklace.type == 'necklace' %}
 			<li class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-4 background">
 				<a href="{{site.baseurl}}{{necklace.url}}">
-				<img class="img-flex border smaller" src="{{site.baseurl}}/images/{{necklace.image}}" alt="">
+				<img class="img-flex border smaller" src="{{site.baseurl}}/images/{{necklace.image}}" alt=""></a>
 				<a href="{{site.baseurl}}{{necklace.url}}">
-				<div class="gutter mega centertext">{{necklace.title}}</div>
+				<div class="gutter mega centertext">{{necklace.title}}</div></a>
 			</li>
 		{% endif %}
 	{% endfor %}	
